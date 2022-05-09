@@ -17,3 +17,6 @@ type Action =
   | SearchRepositoriesAction
   | SearchRepositoriesSuccessAction
   | SearchRepositoriesErrorAction;
+
+
+  type Action = 

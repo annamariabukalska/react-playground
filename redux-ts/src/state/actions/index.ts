@@ -13,7 +13,7 @@ interface SearchRepositoriesErrorAction {
   payload: string;
 }
 
-type Action =
+export type Action =
   | SearchRepositoriesAction
   | SearchRepositoriesSuccessAction
   | SearchRepositoriesErrorAction;

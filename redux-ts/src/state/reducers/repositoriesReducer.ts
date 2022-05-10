@@ -6,7 +6,6 @@ interface RepositoriesState {
   error: string | null;
   data: string[];
 }
-
 interface Action {
   type: string;
   payload?: any;
